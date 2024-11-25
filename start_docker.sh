@@ -4,7 +4,7 @@ SESSION_NAME="docker_nodes"
 
 CONTAINERS=("node0" "node1" "node2" "node3" "node4")
 
-DOCKER_IMAGE="solana:latest"
+DOCKER_IMAGE="angho1230/solana:latest"
 DOCKER_OPTIONS="-itd -P --network host"
 
 
